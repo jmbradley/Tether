@@ -1,1 +1,3 @@
-# Tether Radio - Working on implementation of a couple of ideas. Also using LESS.
+# Tether Radio Podcast -
+
+Developing this as a solo project to mirror the front-end skill portion of curriculum at LS.

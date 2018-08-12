@@ -136,7 +136,8 @@ table {
   align-items: center;
   background-color: #ae2cb3;
   padding-left: 2%;
-  border-bottom: 4px solid #611060;
+  border-bottom: 4px solid #000;
+  padding: 2% 2%;
 }
 .page-container .header .title {
   flex: 2;
@@ -145,7 +146,7 @@ table {
 }
 .page-container .header .title h1 {
   -webkit-text-stroke: 3px black;
-  color: #ae2cb3;
+  color: #d334d6;
   text-shadow: 3px 3px 0 #b3b12c, -2px -2px 0 #b3b12c, 2px -2px 0 #b3b12c, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 .page-container .header .header-lists {

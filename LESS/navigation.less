@@ -4,20 +4,47 @@
     margin: 0 auto;
 
     .header {
-
         display: flex;
         flex-direction: row;
         align-items: center;
+        background-color: #ae2cb3;
+        padding-left: 2%;
+        border-bottom: 4px solid #611060;
         
     .title {
         flex:2;
         font-family: 'Erica One', cursive;
         font-size: 6rem;
+        h1 {
+            -webkit-text-stroke: 3px black;
+            color: #ae2cb3;
+            text-shadow:
+                3px 3px 0 #b3b12c,
+              -2px -2px 0 #b3b12c,  
+               2px -2px 0 #b3b12c,
+               -2px 2px 0 #000,
+                2px 2px 0 #000;
+         }
     }
     .header-lists {
         flex:1;
+        margin-left: -60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    .socials {
+        margin-bottom: 8%;
+        margin-left: 40%;
     }
-    
+    .navs {
+        
 
-    }
+        button {
+          
+        }
+
+            }//End of Navs
+        }//End of Header Lists
+    }//End of Header
 }
